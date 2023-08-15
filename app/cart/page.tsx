@@ -18,11 +18,9 @@ const Cart = () => {
 
   useEffect(() => {
     setProducts(response.products);
-  }, []);
+    console.log("calling....");
+  }, [response]);
 
-  {
-    console.log("products", products);
-  }
   return (
     <div className="flex-1 pt-32 padding-x">
       <h1 className="text-4xl font-bold">Shopping Cart</h1>
