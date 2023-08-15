@@ -80,7 +80,9 @@ export default function Home() {
                 <div className="home__cars-wrapper">
                   {products
                     .filter(
-                      (el: any) => search == null || el.title.includes(search)
+                      (el: any) =>
+                        search == null ||
+                        el.title.toLowerCase().includes(search.toLowerCase())
                     )
                     .map((el: any) => {
                       return (
