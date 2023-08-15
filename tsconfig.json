@@ -41,7 +41,8 @@
     "app/Redux/features/Products/cartSlice.ts",
     "app/api/auth/[...nextauth]/route.ts",
     "app/dashboard/myorders/page.tsx",
-    "components/CustomButton/CustomButton.test.js"
+    "components/CustomButton/CustomButton.test.js",
+    "app/Redux/store.js"
   ],
   "exclude": ["node_modules"]
 }

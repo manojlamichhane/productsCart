@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import CustomButton from "../CustomButton/CustomButton";
 import { useSession, signOut } from "next-auth/react";
