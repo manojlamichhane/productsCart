@@ -23,6 +23,25 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "types": ["@types/jest"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/Hero/Hero.tsx",
+    "app/page.tsx",
+    "app/[productId]/page.tsx",
+    "components/DetailsCard/DetailsCard.tsx",
+    "app/cart/page.tsx",
+    "components/CartProductCard/CartProductCard.tsx",
+    "app/api/auth/[...nextauth]/page.js",
+    "app/signIn/page.tsx",
+    "app/Redux/features/Products/productsSlice.ts",
+    "app/Redux/features/Products/cartSlice.ts",
+    "app/api/auth/[...nextauth]/route.ts",
+    "app/dashboard/myorders/page.tsx",
+    "components/CustomButton/CustomButton.test.js"
+  ],
   "exclude": ["node_modules"]
 }

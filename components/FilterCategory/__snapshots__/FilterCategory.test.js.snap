@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterCategory test Render check 1`] = `
+<DocumentFragment>
+  <input
+    aria-autocomplete="list"
+    aria-expanded="false"
+    class="search-manufacturer__input"
+    data-headlessui-state=""
+    id="headlessui-combobox-input-:r0:"
+    role="combobox"
+    type="text"
+    value=""
+  />
+</DocumentFragment>
+`;

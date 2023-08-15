@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button test Render check 1`] = `
+<DocumentFragment>
+  <button
+    class="custom-btn undefined"
+    data-testid="button"
+  >
+    <span>
+      Hello
+    </span>
+  </button>
+</DocumentFragment>
+`;

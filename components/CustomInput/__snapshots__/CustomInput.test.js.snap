@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input test Render check 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="block mb-2 text-sm font-medium text-black "
+    />
+    <input
+      class=" border border-gray-300 text-black sm:text-sm rounded-lg  block w-full p-2.5 "
+      data-testid="input"
+      required=""
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

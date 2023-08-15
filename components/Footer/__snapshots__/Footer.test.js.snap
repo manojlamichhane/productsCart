@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer check Render footer 1`] = `
+<DocumentFragment>
+  <footer
+    class="flex flex-col text-black-100 mt-5 border-t border-gray-100"
+  >
+    <div
+      class="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10"
+    >
+      <div
+        class="flex flex-col justify-start items-start gap-6"
+      >
+        <img
+          alt="logo"
+          class="object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="18"
+          loading="lazy"
+          src="/_next/image?url=%2Flogo-social.png&w=256&q=75"
+          srcset="/_next/image?url=%2Flogo-social.png&w=128&q=75 1x, /_next/image?url=%2Flogo-social.png&w=256&q=75 2x"
+          style="color: transparent;"
+          width="118"
+        />
+        <p
+          class="text-base text-gray-700"
+        >
+          Logo 2023
+          <br />
+           All rights reserved ©
+        </p>
+      </div>
+      <div
+        class="footer__links"
+      >
+        <div
+          class="footer_link"
+        >
+          <h3
+            class="font-bold"
+          >
+            About
+          </h3>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              How it works
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Featured
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Partnership
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Bussiness Relation
+            </a>
+          </div>
+        </div>
+        <div
+          class="footer_link"
+        >
+          <h3
+            class="font-bold"
+          >
+            Company
+          </h3>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Events
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Blog
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Podcast
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Invite a friend
+            </a>
+          </div>
+        </div>
+        <div
+          class="footer_link"
+        >
+          <h3
+            class="font-bold"
+          >
+            Socials
+          </h3>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Discord
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Instagram
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Twitter
+            </a>
+          </div>
+          <div
+            class="flex flex-col "
+          >
+            <a
+              class="text-gray-500"
+              href="/"
+            >
+              Facebook
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10"
+    >
+      <p>
+        @2023 Logo. All rights reserved
+      </p>
+      <div
+        class="footer__copyrights-link"
+      >
+        <a
+          class="text-gray-500"
+          href="/"
+        >
+          Privacy Policy
+        </a>
+        <a
+          class="text-gray-500"
+          href="/"
+        >
+          Terms of Use
+        </a>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
