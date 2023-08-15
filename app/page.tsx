@@ -23,7 +23,6 @@ export default function Home() {
 
   const fetchProducts = async () => {
     const res = await dispatch(fetchAll(searchParam));
-
     setProducts(res.payload);
   };
 

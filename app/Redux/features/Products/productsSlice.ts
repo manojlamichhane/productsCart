@@ -29,7 +29,7 @@ export const fetchById = createAsyncThunk<
 >("Product/fetchById", async (productId: string, thunkAPI) => {
   try {
     const response = await axios.get(
-      `https://${process.env.NEXT_PUBLIC_BASE_URL}/products${productId}`
+      `https://${process.env.NEXT_PUBLIC_BASE_URL}/products/${productId}`
     );
     return response.data.data.Product;
   } catch (err: any) {
