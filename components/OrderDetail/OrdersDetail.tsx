@@ -58,9 +58,8 @@ const OrdersDetail = ({ products }: any) => {
   return (
     <div className="order-detail-card m-2  max-w-full object-contain">
       <h2 className="card__content-title text-xl font-bold">Details</h2>
-
-      <table className="divide-y divide-gray-200 w-fit">
-        <thead className="bg-gray-50">
+      <table className="divide-y divide-gray-200 w-full">
+        <thead className="bg-gray-50 w-auto">
           <tr>
             <th
               scope="col"

@@ -18,8 +18,7 @@ const Cart = () => {
 
   useEffect(() => {
     setProducts(response.products);
-    console.log("calling....");
-  }, [response]);
+  }, [response.products]);
 
   return (
     <div className="flex-1 pt-32 padding-x">
