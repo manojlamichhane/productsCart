@@ -19,9 +19,9 @@ const Navbar = () => {
           <Image
             src="/logo-social.png"
             alt="logo"
-            width={118}
-            height={18}
-            className="object-contain w-auto h-auto"
+            width={120}
+            height={15}
+            className="object-contain  h-auto"
           />
         </Link>
         <div className="flex flex-row">

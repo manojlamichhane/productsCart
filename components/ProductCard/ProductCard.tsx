@@ -8,11 +8,7 @@ import "@smastrom/react-rating/style.css";
 
 const ProductCard = ({
   title,
-  description,
-  brand,
-  category,
   discountPercentage,
-  images,
   price,
   rating,
   thumbnail,

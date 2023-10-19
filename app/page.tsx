@@ -48,9 +48,9 @@ export default function Home() {
           </div>
         ) : (
           <>
-            <div className="searchbar__item mt-5">
+            <div className="searchbar__item mt-5 ">
               <input
-                className="searchbar__input"
+                className="searchbar__input bg-gray-300"
                 placeholder="Search here"
                 value={search}
                 onChange={(e) => handleSearch(e)}

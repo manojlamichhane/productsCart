@@ -35,13 +35,13 @@ const DetailsCard = (props: { product: ProductProps }) => {
       {loading ? (
         <Loading />
       ) : (
-        <div className="flex flex-col lg:flex-row ">
-          <div className="p-10">
+        <div className="flex flex-col p-10 lg:flex-row bg-gray-300 rounded-lg justify-between">
+          <div>
             <Image
               src={thumbnail}
               alt="thumbnail"
-              width={450}
-              height={400}
+              width={540}
+              height={420}
               className="object-contain"
             />
             <div className="flex flex-row justify-center ">
@@ -64,8 +64,8 @@ const DetailsCard = (props: { product: ProductProps }) => {
               })}
             </div>
           </div>
-          <div className="m-6">
-            <h2 className="card__content-title text-4xl font-bold">
+          <div className="flex-1 justify-center px-10">
+            <h2 className="card__content-title text-4xl mt-0 font-bold">
               {product.title}
             </h2>
             <p className="card__content-subtitle">{product.description}</p>

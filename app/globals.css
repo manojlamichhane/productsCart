@@ -88,7 +88,7 @@
 
 /* START: Car Card styles */
 .car-card {
-  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-gray-300 hover:bg-gray-200 hover:shadow-md rounded-3xl;
 }
 .confirmedOrder-card {
   @apply flex flex-col p-6 justify-center items-start text-black-100 bg-grey hover:bg-white hover:shadow-md;
@@ -203,7 +203,7 @@
 }
 
 .searchbar__input {
-  @apply w-full h-[48px] pl-12 p-4 bg-light-white rounded-full max-sm:rounded-full outline-none cursor-pointer text-sm;
+  @apply w-full h-[48px] pl-12 p-4 bg-gray-300 rounded-full max-sm:rounded-full outline-none cursor-pointer text-sm;
 }
 /* END: searchbar styles */
 
@@ -225,7 +225,7 @@
 }
 
 .order-detail-card {
-  @apply flex flex-col p-6 items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+  @apply flex flex-col p-6 items-start text-black-100 bg-gray-300 hover:bg-white hover:shadow-md rounded-3xl;
 }
 
 .cart-badge {

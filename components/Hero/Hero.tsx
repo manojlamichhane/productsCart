@@ -15,8 +15,8 @@ const Hero = () => {
 
   return (
     <div className="hero ">
-      <div className="flex pt-16 flex-col md:flex-row lg:flex-row">
-        <div className="flex-1 pt-20 padding-x">
+      <div className="flex mt-20 pb-10 mx-10 flex-col bg-gray-300 rounded-xl md:flex-row lg:flex-row ">
+        <div className="flex-1 pt-10 padding-x ">
           <h1 className="hero__title">Discover with us</h1>
           <p className="hero__subtitle">
             Variety of products at best price and fast delivery
@@ -28,7 +28,7 @@ const Hero = () => {
             btnType="button"
           />
         </div>
-        <div className="flex pt-20 padding-x w-full ">
+        <div className="flex pt-10 padding-x w-full ">
           <HomeChart />
         </div>
       </div>
