@@ -29,7 +29,7 @@ const initialState: CartState = {
   error: "",
 };
 
-// this function creates a action type of Auth/fetchToken that returns a payload after calling the API
+// this function creates a action type of Carts/addProduct that returns a payload after calling the API
 
 export const addProduct = createAsyncThunk<Product, string>(
   "Carts/addProduct",

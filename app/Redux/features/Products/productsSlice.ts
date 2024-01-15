@@ -19,7 +19,7 @@ const initialState: ProductsState = {
   error: "",
 };
 
-// this function creates a action type of Auth/fetchToken that returns a payload after calling the API
+// this function creates a action type of Product/fetchById that returns a payload after calling the API
 
 export const fetchById = createAsyncThunk<
   // Return type of the payload creator means this function will return product with productprops as type

@@ -10,11 +10,11 @@ const CustomButton = ({
 }: CustomButtonProps) => {
   return (
     <button
+      className={`custom-btn hover:bg-white hover:text-blue-600 ${containerStyles}`}
       disabled={false}
       type={btnType}
       data-testid="button"
       onClick={handleClick}
-      className={`custom-btn ${containerStyles}`}
     >
       <span>{title}</span>
     </button>

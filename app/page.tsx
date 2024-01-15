@@ -56,8 +56,8 @@ export default function Home() {
                 onChange={(e) => handleSearch(e)}
               />
             </div>
-            <div className="flex flex-row ">
-              <div className="mt-12 pr-10">
+            <div className="flex flex-row">
+              <div className="mt-12 pr-10 w-56">
                 <p className="text-xl">Category</p>
                 <div className="flex flex-col">
                   {category.map((el, index) => {
@@ -76,39 +76,41 @@ export default function Home() {
                   })}
                 </div>
               </div>
-              {products?.length !== 0 ? (
-                <div className="home__cars-wrapper">
-                  {products
-                    .filter(
-                      (el: any) =>
-                        search == null ||
-                        el.title.toLowerCase().includes(search.toLowerCase())
-                    )
-                    .map((el: any) => {
-                      return (
-                        <Link key={el._id} href={`/${el._id}`}>
-                          <ProductCard
-                            _id={el._id}
-                            title={el.title}
-                            brand=""
-                            category=""
-                            thumbnail={el.thumbnail}
-                            description={el.description}
-                            price={el.price}
-                            rating={el.rating}
-                            discountPercentage={el.discountPercentage}
-                          />
-                        </Link>
-                      );
-                    })}
-                </div>
-              ) : (
-                <div className="flex justify-center items-center">
-                  <h2 className="text-black text-xl font-bold">
-                    Oops, no products
-                  </h2>
-                </div>
-              )}
+              <div>
+                {products?.length !== 0 ? (
+                  <div className="home__cars-wrapper">
+                    {products
+                      .filter(
+                        (el: any) =>
+                          search == null ||
+                          el.title.toLowerCase().includes(search.toLowerCase())
+                      )
+                      .map((el: any) => {
+                        return (
+                          <Link key={el._id} href={`/${el._id}`}>
+                            <ProductCard
+                              _id={el._id}
+                              title={el.title}
+                              brand=""
+                              category=""
+                              thumbnail={el.thumbnail}
+                              description={el.description}
+                              price={el.price}
+                              rating={el.rating}
+                              discountPercentage={el.discountPercentage}
+                            />
+                          </Link>
+                        );
+                      })}
+                  </div>
+                ) : (
+                  <div className="flex justify-center items-center">
+                    <h2 className="text-black text-xl font-bold">
+                      Oops, no products
+                    </h2>
+                  </div>
+                )}
+              </div>
             </div>
           </>
         )}

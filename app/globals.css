@@ -111,7 +111,7 @@
 }
 
 .car-card__discount {
-  @apply self-start text-[14px] bg-orange-500  leading-[17px] font-semibold  w-min;
+  @apply self-start text-[14px] bg-orange-500  p-1 rounded-md leading-[17px] font-semibold   flex flex-row;
 }
 
 .car-card__price-day {
